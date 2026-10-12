@@ -43,7 +43,7 @@ module "k3s" {
   cpu_cores = 2
   # Fallback for any node that does not set memory_mb itself.
   memory_mb = 2048
-  disk_size = 20
+  disk_size = 30
 
   ssh_key_path    = var.ssh_key_path
   ssh_public_keys = var.ssh_public_keys

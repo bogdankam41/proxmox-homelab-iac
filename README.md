@@ -185,7 +185,7 @@ api_token = "${var.proxmox_user}=${var.proxmox_password}"
 
 ## ☸️ k3s-кластер
 
-Учебный кластер на ноде `pve`: 1 control-plane + 2 воркера, по 2 vCPU и 20 GB диска, Ubuntu 24.04 cloud-image. RAM задаётся на ноду (`memory_mb` внутри `master`/`workers`), общий `memory_mb` модуля — фоллбэк для тех, кто своё значение не указал.
+Учебный кластер на ноде `pve`: 1 control-plane + 2 воркера, по 2 vCPU и 30 GB диска, Ubuntu 24.04 cloud-image. RAM задаётся на ноду (`memory_mb` внутри `master`/`workers`), общий `memory_mb` модуля — фоллбэк для тех, кто своё значение не указал.
 
 | Узел           | VMID | IP             | RAM     | MAC                 |
 | -------------- | ---- | -------------- | ------- | ------------------- |
